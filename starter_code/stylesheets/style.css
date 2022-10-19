@@ -7,4 +7,295 @@ paragraph black: #000000
 paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
+
+min-height: 600px;
 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:@100;300;400&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    background-color: #F3EAE2;
+}
+.container-flex{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+nav{
+    background-color: #540B51;
+}
+
+header{
+    background-color: #540B51;
+}
+
+main{
+    background-color: #540B51;
+}
+
+section{
+    background-color: #F3EAE2;
+}
+
+footer{
+    background-color: #F3EAE2;
+}
+
+.elementos-topo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.elementos-topo > img{
+    display: flex;
+    flex-direction: row;
+    background-color: #540B51;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    max-height: 30px;
+}
+.menu-dentro-topo > ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    color: white;
+    font-size: large;
+}
+.menu-dentro-topo > ul > li > a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    color: white;
+    font-size:x-large;
+}
+
+.icones-dentro-elem-topo{
+    display: flex;
+    background-color: #540B51;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-height: 35px;
+}
+.icones-dentro-elem-topo > button{
+    background-color: #540B51;
+}
+
+.texto-topo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    color: white;
+    font-size: xx-large;
+    background-color: #540B51;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+}
+.texto-topo > h1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    background-color: #540B51;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+}
+
+.texto-topo > p{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    color: #ECB12F;
+    font-size: x-large;
+    background-color: #540B51;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+}
+.icones-login-topo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-size: large;
+    align-items: stretch;
+    width: 600px;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+
+#login-a {
+    color: #540B51;
+    background-color: white;
+    height: auto;
+}
+#login-b {
+    color: white;
+    background-color: rgba(0, 170, 255, 0.838);
+    height: auto;
+}
+
+#login-b > button > img {
+
+    max-height: 30px;
+}
+#login-b > button {
+    max-height: 30px;
+    font-size: large;
+    color: white;
+    width: 600px;
+}
+
+.imagem-header{
+    display: flex;
+    background-color: #540B51;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-height: 600px;
+}
+
+h2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    font-size: xx-large;
+    font-weight: 500;
+    text-align: center;
+    background-color: #F3EAE2;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px; 
+} 
+a > span{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-size: large;
+    font-weight: 50;
+    color: #2E71A6;
+    text-align: center;
+    background-color: #F3EAE2;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+}
+p{
+    font-size: xx-large;
+    font-weight: 100;
+    text-align: center;
+    background-color: #F3EAE2;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+}
+.logos-redes{
+    display: flex;
+    flex-direction: row;
+    background-color:#F3EAE2;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    max-height: 30px;
+    width: 600px;
+}
+.imagem-body1{
+    display: flex;
+    background-color:#F3EAE2;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-height: 600px;
+}
+.div8{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-size: large;
+    font-weight: 100;
+    text-align: center;
+    background-color: #F3EAE2;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+}
+.div9{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-size: large;
+    font-weight: 100;
+    text-align: center;
+    background-color: #F3EAE2;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+
+}
+.div10{
+
+    display: flex;
+    background-color:  #F3EAE2;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-height: 600px;
+}
+.div11{
+
+    display: flex;
+    background-color:  #F3EAE2;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-height: 600px;
+}
+.div12{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-size: large;
+    font-weight: 100;
+    text-align: center;
+    background-color: #F3EAE2;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+}
+.div13{
+    border: 1px solid rgb(255, 72, 0);
+    font-size: xx-large;
+    font-weight: 100;
+    text-align: center;
+    background-color: #F3EAE2;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+}
+.div14{
+    border: 1px solid rgb(94, 255, 0);
+    font-size: large;
+    font-weight: 100;
+    text-align: center;
+    background-color: #F3EAE2;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+}
+.div15{
+    border: 1px solid rgb(174, 0, 255);
+}
+.div16{
+    border: 1px solid rgb(93, 93, 118);
+}
+@media all and(min-width: 768px) and (max-width: 1024px){
+  
+}
+
+@media all and(min-width: 1024px) and (max-width: 1440px){
+
+
+}
+@media all and(min-width: 1440px){
+
+
+}
